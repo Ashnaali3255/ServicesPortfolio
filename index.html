@@ -14,7 +14,7 @@
   <nav>
     <div class="nav__header">
       <div class="nav__logo">
-         <a target="_blank" rel="noopener noreferrer" data-item="true" href= "">Tech<span>Nestaa</span></a> 
+         <a target="_blank" rel="noopener noreferrer" data-item="true" href= "#home">Tech<span>Nestaa</span></a> 
       </div>
       <div class="nav__menu__btn" id="menu-btn">
         <i class="ri-menu-fill"></i>
@@ -23,11 +23,12 @@
      <ul class="nav__links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul> 
     <div class="nav__btns">
-      <button class="btn">Let's Talk</button>
+      <a href="#contact"><button class="btn">Let's Talk</button></a>
     </div>
   </nav>
 
@@ -199,13 +200,15 @@
       </div>
     </section>
 
+    <!-- NewsLetter -->
+
    <section class="section__container subscribe__container" id="contact">
       <div class="subscribe__content">
         <h2 class="section__header">
           Subscribe Newsletter Get Latest Updates and Dates
         </h2>
-        <form action="/">
-          <input type="text" placeholder="Enter your email here..." />
+        <form action="/" method="post">
+          <input type="text" placeholder="Enter your email" />
           <button class="btn">
             Subscribe
             <span><i class="ri-arrow-right-long-line"></i></span>
@@ -213,7 +216,7 @@
         </form>
       </div>
     </section>
-
+<!-- Footer -->
     <footer>
       <div class="section__container footer__container">
         <div class="footer__col">
@@ -273,7 +276,7 @@
             </li>
             <li>
               <a target="_blank" rel="noopener noreferrer" data-item="true" href= "">
-                <span><i class="ri-mail-fill"></i></span> services@technestaa.com
+                <span><i class="ri-mail-fill"></i></span> technestaa.services@gmail.com
               </a>
             </li>
             <li>
@@ -284,9 +287,11 @@
           </ul>
         </div>
       </div>
+    
       <div class="footer__bar">
         Copyright © 2025 TechNestaa. All rights reserved.
       </div>
+      
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
