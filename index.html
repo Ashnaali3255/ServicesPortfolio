@@ -202,20 +202,46 @@
 
     <!-- NewsLetter -->
 
-   <section class="section__container subscribe__container" id="contact">
+   <!-- <section class="section__container subscribe__container" id="contact">
       <div class="subscribe__content">
         <h2 class="section__header">
           Subscribe Newsletter Get Latest Updates and Dates
         </h2>
-        <form action="/" method="post">
-          <input type="text" placeholder="Enter your email" />
-          <button class="btn">
+        <form action="https://formspree.io/f/mdakkrry" method="POST">
+  <input type="text" placeholder="Enter your email" />
+  <input type="text" placeholder="Enter your message" />
+  <!-- your other form fields go here -->
+  <!-- <button class="btn"> 
             Subscribe
             <span><i class="ri-arrow-right-long-line"></i></span>
           </button>
-        </form>
+</form>
       </div>
-    </section>
+    </section> -->
+
+    <section class="section__container subscribe__container" id="contact">
+  <div class="subscribe__content">
+    <h2 class="section__header">
+      Subscribe Newsletter & Get Latest Updates
+    </h2>
+
+    <form action="https://formspree.io/f/mdakkrry" method="POST">
+      
+      <input type="email" name="email" placeholder="Enter your email" required/>
+      <input type="message" name="message" placeholder="Enter your message" required/>
+
+      <!-- Optional: subject for email -->
+      <input type="hidden" name="_subject" value="New Contact from TechNestaa">
+
+      <button type="submit" class="btn">
+        Subscribe
+        <span><i class="ri-arrow-right-long-line"></i></span>
+      </button>
+
+    </form>
+  </div>
+</section>
+
 <!-- Footer -->
     <footer>
       <div class="section__container footer__container">
